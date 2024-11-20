@@ -1,11 +1,18 @@
 <?php
 
+require_once ("iDados.php");
+
 class Item implements iDados
 {
 
     protected int $codItem;
     protected float $valorItem;
     protected string $nomeItem;
+
+    public function getDados()
+    {
+        
+    }
 
 
     public function getCodItem(): int
