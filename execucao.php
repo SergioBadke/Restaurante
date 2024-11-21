@@ -8,7 +8,7 @@ require_once("modelos/Sobremesa.php");
 function listarPedido($pedidos)
 {
     if (count($pedidos) > 0) {
-        foreach ($pedidos as $i => $pedido)
+        foreach ($pedidos as $p)
             printf($pedidos);
     } else
         echo "Nenhum prato.\n";
@@ -18,7 +18,7 @@ $menu = array();
 
 function listarMenu($menu){
     foreach ($menu as $m) {
-        echo ($m . "/n");
+        printf($menu);
     }
 }
 
