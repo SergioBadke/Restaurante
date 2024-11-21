@@ -16,11 +16,7 @@ function listarPedido($pedidos)
 
 $menu = array();
 
-function listarMenu($menu){
-    foreach ($menu as $m) {
-        printf($menu);
-    }
-}
+
 
 $estrogonofe = new Prato;
 $estrogonofe->setCalorias(145);
@@ -116,7 +112,11 @@ $cerveja->setValorItem(9.90);
 array_push($menu, $cerveja);
 
 
-
+function listarMenu($menu){
+    foreach ($menu as $m) {
+        printf($menu);
+    }
+}
 //Menu//
 
 do {

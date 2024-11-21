@@ -9,9 +9,10 @@ class Item implements iDados
     protected float $valorItem;
     protected string $nomeItem;
 
-    public function getDados()
+    public function getDados($codItem, $valorItem, $nomeItem)
     {
-        
+        $dados = "O item " . $nomeItem . " de valor " . $valorItem . " possui código no menu de: " . $codItem . "\n";
+        return $dados;
     }
 
 
