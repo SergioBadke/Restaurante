@@ -27,26 +27,4 @@ final class Prato extends Item implements iDados
 }
 
 
-$estrogonofe = new Prato;
-$estrogonofe->setCalorias(145);
-$estrogonofe->setCodItem(1);
-$estrogonofe->setNomeItem("Strogonoff de Frango");
-$estrogonofe->setValorItem(31.99);
 
-$risoto = new Prato;
-$risoto->setCalorias(350);
-$risoto->setCodItem(2);
-$risoto->setNomeItem("Risoto de Camarão");
-$risoto->setValorItem(45.50);
-
-$macarrao = new Prato;
-$macarrao->setCalorias(228);
-$macarrao->setCodItem(3);
-$macarrao->setNomeItem("Macarrão ao Molho de Queijos");
-$macarrao->setValorItem(37.90);
-
-$bifeBatata = new Prato;
-$bifeBatata->setCalorias(145);
-$bifeBatata->setCodItem(4);
-$bifeBatata->setNomeItem("Bife com Batatas");
-$bifeBatata->setValorItem(25.99);
