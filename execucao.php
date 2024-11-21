@@ -148,11 +148,9 @@ do {
             # code...
             break;
 
-        case 4:
-            $opcao = 0;
-            break;
+        
         default:
             echo "Opção Invalida";
             break;
     }
-} while ($opcao != 0);
+} while ($opcao != 4);
